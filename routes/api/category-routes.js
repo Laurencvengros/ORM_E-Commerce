@@ -53,6 +53,7 @@ router.put('/:id', async (req, res) => {
       res.json(updateCategory);
     }else{
       res.status(404).json({message: 'No category with that id!'});
+      return;
     }
   }catch(err){
     res.status(500).json(err);
@@ -71,6 +72,7 @@ try{
     res.json(deleteCategory);
   }else{
     res.status(404).json({message: 'No category with that id!'});
+    return;
   }
 }catch(err){
   res.status(500).json(err);
