@@ -8,12 +8,15 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Products
  try {
   const categoryData = await Category.findAll({
-    inculde: [{model: Product,}],
+    inculde: [{model: Product}],
   });
+  if(!categoryData) {
+    res.status(404).json({message: "Categories cannot be found!"});
+  }
   res.status(200).json(categoryData);
- } catch (err){
+} catch (err) {
   res.status(500).json(err);
- }
+}
 });
 
 router.get('/:id', async (req, res) => {
@@ -34,8 +37,8 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   // create a new category
   try{
-    const newCategory = await Category.create(req.body);
-    res.status(200).json(newCategory);
+    const categoryData = await Category.create(req.body);
+    res.status(200).json(categoryData);
   }catch(err){
   res.status(500).json(err);
   }
@@ -44,13 +47,13 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
-    const updateCategory = await Category.update(req.body, {
+    const categoryData = await Category.update(req.body, {
       where: {
         id: req.params.id
       },
     });
-    if(updateCategory){
-      res.json(updateCategory);
+    if(categoryData){
+      res.json(categoryData);
     }else{
       res.status(404).json({message: 'No category with that id!'});
       return;
@@ -63,13 +66,13 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
 try{
-  const deleteCategory = await Category.destroy({
+  const categoryData = await Category.destroy({
     where: {
       id: req.params.id,
     },
   });
-  if(deleteCategory){
-    res.json(deleteCategory);
+  if(categoryData){
+    res.json(categoryData);
   }else{
     res.status(404).json({message: 'No category with that id!'});
     return;
