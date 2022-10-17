@@ -107,14 +107,22 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Links
 
-* Click to watch the demos:
- -  ![GET All](./animations/images/GET_ALL.jpg  "Screenshot of screencastidfy video  for GET ALL request" )
-  https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
- - 
- - 
- - 
+* Link to GitHub Repository: https://github.com/Laurencvengros/ORM_E-Commerce.git
 
-*Link to GitHub Repository: https://github.com/Laurencvengros/ORM_E-Commerce.git
+
+* Click the link to watch the demos:
+ - GET ALL:  https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
+    ![GET All](./animations/images/GET_ALL.jpg  "Screenshot of screencastidfy video  for GET ALL request" )
+ 
+ - GET by ID: https://watch.screencastify.com/v/nL7FrG8gS4mGFKBhreZ6
+    ![GET by ID](./animations/images/GET_byID.jpg  "Screenshot of screencastidfy video  for GET by ID request" )
+ - POST, PUT, DELETE Categories: https://watch.screencastify.com/v/zCas5a5hTOvc6rYJBvLB
+    ![POST, PUT, DELETE](./animations/images/POST_PUT_DELETE.jpg  "Screenshot of screencastidfy video  for POST, PUT, DELETE request" )
+ 
+ - POST, PUT, DELETE Tags and Products: https://watch.screencastify.com/v/egFtS9ChsZ5ThwNzHl9B
+     ![POST, PUT, DELETE Tags & Products](./animations/images/tagsandproducts.jpg "Screenshot of screencastidfy video  for POST, PUT, DELETE tags & products request" )
+
+
 
 
 
