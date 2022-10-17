@@ -40,39 +40,51 @@ SO THAT my company can compete with other e-commerce companies
 ## Installation 
 
 * To run this application follow these steps:
-    1. clone the repository using 
-        * /git@github.com:Laurencvengros/ORM_E-Commerce.git\
+
+    ```
+    1. clone the repository using https or SSH
     2. npm init --y
     3. npm install sequelize
     4. npm install mysql2
     5. npm install express
+    ```
 
 * open mysql2 by using: mysql -u root -p
-    1. input source db/shcema.sql
-    2. use ecommerce_db
+
+    ```
+    1. enter your SQL password
+    2. input source db/schema.sql
+    3. use ecommerce_db
+    ```
 
 * Exit mysql by running "quit", then enter:
+
+    ```
     1. npm run seed
     2. npm start or node server.js
+    ```
     
-
-
----
 
 
 ## Usage
 
 * open mysql2 by using: mysql -u root -p and enter your password
 
-    1. input source db/shcema.sql
+    ```
+    1. input source db/schema.sql
     2. use ecommerce_db
+    ```
 
 * Exit mysql by running "quit", then enter:
+
+    ```
     1. npm run seed
     2. npm start or node server.js
-
-* open insomnia and enter localhost:3001 in the url
+    ```
+---
+* Open insomnia and enter localhost:3001 in the url
 * You can enter GET, POST, PUT and DELETE requests for products, categories and tags to test your data in those routes. 
+---
 
 
 
@@ -106,8 +118,9 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Links
 
+```
 * Link to GitHub Repository: https://github.com/Laurencvengros/ORM_E-Commerce.git
-
+```
 
 * Click the link to watch the demos:
  - GET ALL:  https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
