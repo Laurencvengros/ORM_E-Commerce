@@ -41,7 +41,7 @@ SO THAT my company can compete with other e-commerce companies
 
 * To run this application follow these steps:
     1. clone the repository using 
-        * https://github.com/Laurencvengros/ORM_E-Commerce.git
+        * git@github.com:Laurencvengros/ORM_E-Commerce.git
     2. npm init --y
     3. npm install sequelize
     4. npm install mysql2
@@ -108,12 +108,13 @@ SO THAT my company can compete with other e-commerce companies
 ## Links
 
 * Click to watch the demos:
- -  ![GET All](./images/screenshot_note_taker.jpg  "Screenshot of screencastidfy video  for GET ALL request" ): https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
+ -  ![GET All](./animations/images/GET_ALL.jpg  "Screenshot of screencastidfy video  for GET ALL request" )
+  https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
  - 
  - 
  - 
 
-*Link to GitHub Repository: https://github.com/Laurencvengros/Employee_Tracker
+*Link to GitHub Repository: https://github.com/Laurencvengros/ORM_E-Commerce.git
 
 
 
