@@ -41,7 +41,7 @@ SO THAT my company can compete with other e-commerce companies
 
 * To run this application follow these steps:
     1. clone the repository using 
-        * git@github.com:Laurencvengros/ORM_E-Commerce.git
+        * /git@github.com:Laurencvengros/ORM_E-Commerce.git\
     2. npm init --y
     3. npm install sequelize
     4. npm install mysql2
@@ -81,7 +81,6 @@ SO THAT my company can compete with other e-commerce companies
 * The videos below demonstrate the finctionality of the application in insomnia.
 
 1. This Video test “GET ALL tags,” “GET ALL Categories,” and “GET All Products.”
-
 [GET ALL Demo](./animations/GET%20all%20tags%2C%20products%20%26%20categories.webm "Demo of the GET ALL request")
 
 2. This video tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”
@@ -129,7 +128,7 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Contact Me
 
-* This Note Taker application was developed by Lauren Cvengros
+* This Ecommerce application was developed by Lauren Cvengros
 
 *  For questions, comments, concerns people contact me at l.cvengros@icloud.com
 
