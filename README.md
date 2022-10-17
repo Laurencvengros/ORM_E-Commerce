@@ -12,21 +12,17 @@
 
 5. [Application Demo](#application-demo)
 
-6. [Links](#links)
+6. [Technologies](#technologies)
 
-6. [Contact Me](#contact-me)
+7. [Links](#links)
+
+8. [Contact Me](#contact-me)
 
     
 
 ## Description
 
-A Node.js application that can be used to manage an employee database.
-
-This application allows one to
-* View a loist of all departments, roles, and employees.
-* Add new departments, roles, and employees
-* Update an employee's role and manager
-* Delete a department, role and employess
+A node.js application that uses and Express.js server, MySQL database and dotenv for a backend Ecommerce site. This application has RESTful APIs that have CRUD functiontions and uses sequelize as an ORM tool The application is back end only so insomnia is used to create requests to the API.
 
 
 
@@ -34,9 +30,9 @@ This application allows one to
 ## User Story
 
 ```
-AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business'
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 ```
 
 
@@ -44,10 +40,20 @@ SO THAT I can organize and plan my business'
 ## Installation 
 
 * To run this application follow these steps:
-    1. Run the command npm i in tyhe root folder to install dependencies
-    2. Run Schema.sql in the db folder 
-    3. (Optional) run Seeds.sql in the db folder to add pre populated data
-    4. In the connection.js file edit the conncetion properties 
+    1. clone the repository using 
+        * https://github.com/Laurencvengros/ORM_E-Commerce.git
+    2. npm init --y
+    3. npm install sequelize
+    4. npm install mysql2
+    5. npm install express
+
+* open mysql2 by using: mysql -u root -p
+    1. input source db/shcema.sql
+    2. use ecommerce_db
+
+* Exit mysql by running "quit", then enter:
+    1. npm run seed
+    2. npm start or node server.js
     
 
 
@@ -56,17 +62,21 @@ SO THAT I can organize and plan my business'
 
 ## Usage
 
-* Run the command npm start in the server.js file to initiate the inquirer prompts
+* open mysql2 by using: mysql -u root -p and enter your password
 
-* Screenshots below show examples of prompts and data
+    1. input source db/shcema.sql
+    2. use ecommerce_db
+
+* Exit mysql by running "quit", then enter:
+    1. npm run seed
+    2. npm start or node server.js
+
+* open insomnia and enter localhost:3001 in the url
+* You can enter GET, POST, PUT and DELETE requests for products, categories and tags to test your data in those routes. 
 
 
-![Main Menu](./images/main_menu.jpg "screenshot of main menu screen in the terminal" )
 
-
-![View Employees ](./images/view_ees.jpg  "Screenshot of the data you can store" )
-
-## Application Deo
+## Application Demo
 
 * The videos below demonstrate the finctionality of the application in insomnia.
 
@@ -83,9 +93,26 @@ SO THAT I can organize and plan my business'
 4. This video tests the POST, PUT, and DELETE routes for products and tags.
 [POST, PUT, DELETE products and tags Demo](./animations/POST%2C%20PUT%2C%20%20DEL%20tags%26products.webm "POST, PUT, DELETE tags and products")
 
+## Technologies
+
+* This application is created using:
+
+    - Javascript
+    - Node.js
+    - Express.js
+    - MySql2
+    - Sequelize
+    - dotEnv
+
+
 ## Links
 
-* Click to watch the demo: https://watch.screencastify.com/v/mpwHYSVQW2K7XLUP8SCN
+* Click to watch the demos:
+ -  ![GET All](./images/screenshot_note_taker.jpg  "Screenshot of screencastidfy video  for GET ALL request" ): https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
+ - 
+ - 
+ - 
+
 *Link to GitHub Repository: https://github.com/Laurencvengros/Employee_Tracker
 
 
