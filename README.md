@@ -95,11 +95,17 @@ SO THAT my company can compete with other e-commerce companies
 1. This Video test “GET ALL tags,” “GET ALL Categories,” and “GET All Products.”
 [GET ALL Demo](./animations/GET%20all%20tags%2C%20products%20%26%20categories.webm "Demo of the GET ALL request")
 
+---
+
 2. This video tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”
 [GET by ID Demo](/animations/GET%20by%20ID.webm "Demo of GET by ID")
 
+---
+
 3. This video tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”
 [POST, PUT, DELETE Category Demo](./animations/POST%2C%20PUT%2C%20DELETE.webm "DELETE Category by ID,” “CREATE Category,” and “UPDATE Category")
+
+---
 
 4. This video tests the POST, PUT, and DELETE routes for products and tags.
 [POST, PUT, DELETE products and tags Demo](./animations/POST%2C%20PUT%2C%20%20DEL%20tags%26products.webm "POST, PUT, DELETE tags and products")
@@ -118,10 +124,9 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Links
 
-```
+---
 * Link to GitHub Repository: https://github.com/Laurencvengros/ORM_E-Commerce.git
-```
-
+---
 * Click the link to watch the demos:
  - GET ALL:  https://watch.screencastify.com/v/OfosyGvwkfPCegmx8h2A
     ![GET All](./animations/images/GET_ALL.jpg  "Screenshot of screencastidfy video  for GET ALL request" )
